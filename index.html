@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- in mobile set initial zoom level of page to 100%, set site size to equal to device width -->
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<title>CanTek - Internet. Always.</title>
+<!--CSS reset, resets browsers default values-->
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<!--Whe using two google fonts replace | with %7C to validate-->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption%7CPT+Sans+Narrow" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+    	<h1 class="hidden">CanTek - Internet. Always.</h1>
+       <header>
+        <nav id="mainNav">
+        	<h2 class="hidden">Main Navigation</h2>
+            <button id="button"></button>
+        	<ul id="burgerMenu">
+            	<li><a href="#">Packages</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+
+        <div id="logoCon">
+        	<img src="images/logo.svg" alt="CanTek Logo" id="logo">
+        </div>
+        </header>
+
+        <div id="heroCon">      
+            <div id="heroImg">
+            	
+            <img
+            srcset="
+            images/hero_290.jpg 290w,
+            images/hero_737.jpg 737w,
+            images/hero_800.jpg 800w"
+            src="images/hero_800.jpg"
+            alt="ipad displaying content">
+
+            </div>
+                
+            <section id="mainCopy">
+                <h2>We keep you connected. <span class="subText">Always.</span></h2>
+                <h3>Fast &amp; reliable internet service.</h3> 
+                <p>We know how important it is to stay connected. We keep you connected to your digital life with the fastest and most reliable connections around. </p>
+                <p class="callToAction">Call 1-800-FAST-WEB to register today.</p>
+            </section>
+        </div>
+       
+        <section id="services"> 
+            <h2 class="hidden">Services</h2> 
+            <section class="service" id="install">
+            	<img src="images/home_install.jpg" alt="home installation">
+            	<h3>Free Home Installation</h3>
+                <p>We promise not to drive your payments with hidden installation fees &amp; upgrade charges. Find a lower price and we’ll match it.</p>
+            </section>
+            <section class="service" id="hosting">
+            	<img src="images/server.jpg" alt="web hosting server">
+            	<h3>Web Hosting</h3>
+                <p>Not only do we offer internet service, but we also offer web hosting. Whether it’s a personal site or business site our servers are ready to go.</p>
+            </section>
+            <section class="service" id="support">
+            	<img src="images/support.jpg" alt="tech support">
+            	<h3>Tech Support That Cares</h3>
+                <p>Our techs are the friendliest around and are specialy trained to help you solve problems. We are avialable 24/7 should an issue arise.</p>
+            </section> 
+          </section>        
+    </div>
+    <footer id="mainFooter">
+    	<div id="footerCon">
+        	<nav id="bottomNav">
+        	<h2 class="hidden">Footer Navigation</h2>
+        	<ul>
+            	<li><a href="#">Packages</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+        <p id="copyright">Copyright &copy; 2010-2016 CanTek</p>
+        </div>
+    </footer>  
+      <script src="js/main.js"></script>
+</body>
+</html>
